@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:padding="3dp">
+
+                <TextView android:id="@+id/logEntryDetailsTitleRowDateTime"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:textColor="#ffffff"
+                          android:text="@string/log_entry_details_header_date"
+                          android:gravity="left|top"
+                          android:background="@color/light_gray"
+                          android:padding="3dp"/>
+
+                <TextView android:id="@+id/logEntryDetailsValueRowDateTime"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="18dp"
+                          android:textColor="#ffffff"
+                          android:padding="8dp"/>
+
+                <TextView android:id="@+id/logEntryDetailsTitleRowComponent"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:textColor="#ffffff"
+                          android:padding="3dp"
+                          android:text="@string/log_entry_details_header_component"
+                          android:background="@color/light_gray"/>
+
+                <TextView android:id="@+id/logEntryDetailsValueRowComponent"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="18dp"
+                          android:textColor="#ffffff"
+                          android:padding="8dp"/>
+
+                <TextView android:id="@+id/logEntryDetailsTitleRowType"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:textColor="#ffffff"
+                          android:padding="3dp"
+                          android:text="@string/log_entry_details_header_type"
+                          android:background="@color/light_gray"/>
+
+                <TextView android:id="@+id/logEntryDetailsValueRowType"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="18dp"
+                          android:textColor="#ffffff"
+                          android:padding="8dp"/>
+
+                <TextView android:id="@+id/logEntryDetailsTitleRowThread"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:textColor="#ffffff"
+                          android:padding="3dp"
+                          android:text="@string/log_entry_details_header_thread"
+                          android:background="@color/light_gray"/>
+
+                <TextView android:id="@+id/logEntryDetailsValueRowThread"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="18dp"
+                          android:textColor="#ffffff"
+                          android:padding="8dp"/>
+
+                <TextView android:id="@+id/logEntryDetailsTitleRowFile"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:textColor="#ffffff"
+                          android:padding="3dp"
+                          android:text="@string/log_entry_details_header_thread"
+                          android:background="@color/light_gray"/>
+
+                <TextView android:id="@+id/logEntryDetailsValueRowFile"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="18dp"
+                          android:textColor="#ffffff"
+                          android:padding="8dp"/>
+
+                <TextView android:id="@+id/logEntryDetailsTitleRowMessage"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="20dp"
+                          android:textColor="#ffffff"
+                          android:padding="3dp"
+                          android:text="@string/log_entry_details_header_message"
+                          android:background="@color/light_gray"/>
+
+                <TextView android:id="@+id/logEntryDetailsValueRowMessage"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:textSize="18dp"
+                          android:textColor="#ffffff"
+                          android:padding="8dp"/>
+        </LinearLayout>
+</ScrollView>
+

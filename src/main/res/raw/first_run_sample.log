@@ -1,0 +1,79 @@
+﻿<![LOG[Failed to connect to server with IP v4 address with error 10060. Try next IP...
+]LOG]!><time="22:13:25.553+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="bgbtcpclient.cpp:703">
+<![LOG[Failed to signin bgb client with error = 80004005.]LOG]!><time="22:13:25.556+300" date="10-12-2013" component="BgbAgent" context="" type="3" thread="4196" file="bgbcontroller.cpp:584">
+<![LOG[Connecting to server with IP: 192.168.1.1 Port: 10123
+]LOG]!><time="22:14:25.563+300" date="10-12-2013" component="BgbAgent" context="" type="2" thread="4196" file="bgbtcpclient.cpp:699">
+<![LOG[Failed to connect to server with IP v4 address with error 10060. Try next IP...
+]LOG]!><time="22:14:46.570+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="bgbtcpclient.cpp:703">
+<![LOG[Failed to signin bgb client with error = 80004005.]LOG]!><time="22:14:46.570+300" date="10-12-2013" component="BgbAgent" context="" type="3" thread="4196" file="bgbcontroller.cpp:584">
+<![LOG[Fallback to HTTP connection.]LOG]!><time="22:14:46.570+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="bgbcontroller.cpp:773">
+<![LOG[Raising event:
+
+instance of CCM_CcmHttp_Status
+{
+	ClientID = "GUID:DASFRE-AED3-43EC-BF35-F4FFFEEEEB4B";
+	DateTime = "20131013031446.577000+000";
+	HostName = "sccm.contoso.com";
+	HRESULT = "0x00000000";
+	ProcessID = 1860;
+	StatusCode = 0;
+	ThreadID = 4196;
+};
+]LOG]!><time="22:14:46.577+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="event.cpp:706">
+<![LOG[Raising event:
+
+instance of CCM_CcmHttp_Status
+{
+	ClientID = "GUID:FFFFFFFF-AED3-43EC-BF35-F4CFFFFFF";
+	DateTime = "20131013031446.757000+000";
+	HostName = "sccm.contoso.com";
+	HRESULT = "0x00000000";
+	ProcessID = 1860;
+	StatusCode = 0;
+	ThreadID = 4196;
+};
+]LOG]!><time="22:14:46.757+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="event.cpp:706">
+<![LOG[Receive signin confirmation message from server, client is signed in.]LOG]!><time="22:14:46.763+300" date="10-12-2013" component="BgbAgent" context="" type="2" thread="4196" file="bgbconnector.cpp:123">
+<![LOG[Successfully sent keep-alive message.]LOG]!><time="22:14:46.766+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="bgbconnector.cpp:171">
+<![LOG[Raising event:
+
+instance of CCM_CcmHttp_Status
+{
+	ClientID = "GUID:FFFFFFFF-AED3-43EC-BF35-F4CFFFFFF";
+	DateTime = "20131013031951.142000+000";
+	HostName = "sccm.contoso.com";
+	HRESULT = "0x00000000";
+	ProcessID = 1860;
+	StatusCode = 0;
+	ThreadID = 4196;
+};
+]LOG]!><time="22:19:51.142+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="event.cpp:706">
+<![LOG[Successfully sent keep-alive message.]LOG]!><time="22:19:51.147+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="bgbconnector.cpp:192">
+<![LOG[Raising event:
+
+instance of CCM_CcmHttp_Status
+{
+	ClientID = "GUID:FFFFFFFF-AED3-43EC-BF35-F4CFFFFFF";
+	DateTime = "20131013031951.142000+000";
+	HostName = "sccm.contoso.com";
+	HRESULT = "0x00000000";
+	ProcessID = 1860;
+	StatusCode = 0;
+	ThreadID = 4196;
+};
+]LOG]!><time="22:24:51.617+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="event.cpp:706">
+<![LOG[Successfully sent keep-alive message.]LOG]!><time="22:24:51.624+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="bgbconnector.cpp:192">
+<![LOG[Raising event:
+
+instance of CCM_CcmHttp_Status
+{
+	ClientID = "GUID:FFFFFFFF-AED3-43EC-BF35-F4CFFFFFF";
+	DateTime = "20131013031951.142000+000";
+	HostName = "sccm.contoso.com";
+	HRESULT = "0x00000000";
+	ProcessID = 1860;
+	StatusCode = 0;
+	ThreadID = 4196;
+};
+]LOG]!><time="22:30:01.421+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="event.cpp:706">
+<![LOG[Successfully sent keep-alive message.]LOG]!><time="22:30:01.428+300" date="10-12-2013" component="BgbAgent" context="" type="1" thread="4196" file="bgbconnector.cpp:192">

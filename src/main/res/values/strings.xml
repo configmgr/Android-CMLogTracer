@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CMLogTracer</string>
+
+    <!-- Log File Activity -->
+    <string name="first_run_sample_log_name">Sample</string>
+    <string name="action_delete_log_file">Delete selected file</string>
+    <string name="action_delete_all_log_files">Delete all log files</string>
+    <string name="log_file_edit_menu_header">Edit</string>
+    <string name="log_files_activity_title">Log Files</string>
+    <string name="log_files_activity_added_on">"Added on: "</string>
+    <string name="import_name_prompt_title">Enter Name</string>
+    <string name="import_name_prompt_message">Enter a name for the file you\'re about to import</string>
+    <string name="import_progress_dialog_title">Importing File:</string>
+    <string name="import_progress_dialog_message_1">Downloading file and processing contents...</string>
+    <string name="import_progress_dialog_message_2">Finished processing file contents.  Adding to database...</string>
+    <string name="import_progress_idle">Idle</string>
+    <string name="delete_all_log_files_dialog_title">Delete all log files</string>
+    <string name="delete_all_log_files_dialog_message">Are you sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="log_import_error_dialog_title">Failed to import file</string>
+    <string name="log_import_error_dialog_message">The file you were trying to import is most likely corrupt.  Import aborted.</string>
+    <string name="log_files_action_bar_help">Help</string>
+
+    <!-- Log Entries Activity -->
+    <string name="log_entries_activity_title">" (%1$d lines)"</string>
+    <string name="radio_button_all">All</string>
+    <string name="radio_button_error">Error</string>
+    <string name="radio_button_warning">Warning</string>
+
+    <!-- Log Entry Details Activity -->
+    <string name="log_entry_search_hint">Search...</string>
+    <string name="log_entry_details_title">" (Line %1$d)"</string>
+    <string name="log_entry_details_header_date">Date and Time</string>
+    <string name="log_entry_details_header_component">Component</string>
+    <string name="log_entry_details_header_type">Type</string>
+    <string name="log_entry_details_header_thread">Thread</string>
+    <string name="log_entry_details_header_file">File</string>
+    <string name="log_entry_details_header_message">Message</string>
+    <string name="log_entry_details_copy_context_menu">Copy</string>
+
+    <!-- Help Activity -->
+    <string name="help_title">Help</string>
+    <string name="help_message">"CMLogTracer is a SCCM log file viewer.  In order to import some logs, you should open them directly from other apps.
+
+If you have some logs attached to an email sitting in your inbox, visit your mail app, tap on the attachment and you should be directed to CMLogTracer.
+
+You can also open files from cloud storage services such as Microsoft SkyDrive, Google Drive, or Dropbox, just by tapping the log files inside those apps."</string>
+    <string name="help_got_it_button">Got it!</string>
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.andrebocchini.CMLogTracer"
+          android:versionCode="7"
+          android:versionName="1.6">
+    <uses-permission android:name="com.android.email.permission.READ_ATTACHMENT"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-sdk android:minSdkVersion="18"/>
+    <application android:icon="@drawable/icon"
+                 android:label="@string/app_name">
+        <activity android:name=".ui.LogFilesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+                <data android:mimeType="application/octet-stream"/>
+                <data android:mimeType="application/log"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.LogEntriesActivity"
+                  android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".ui.LogEntryDetailsActivity"/>
+        <activity android:name=".ui.HelpActivity"/>
+    </application>
+</manifest>
