@@ -6,3 +6,12 @@ CMLogTracer is an Android application used to browse and search logs generated b
 As a sysadmin, I have to do a lot of SCCM troubleshooting.  SCCM logs are notoriously difficult to read in a simple text editor, which is why Microsoft ships the product with a log viewing tool called CMTrace.  Using CMLogTracer, users are able to open those same logs from cloud storage, or directly from other applications like my email client.
 
 Logs are imported into the application and are parsed and stored in SQLite storage for easy searching.  You can import and store as many logs as your device storage can accomodate.
+
+Screenshots
+===========
+
+![](/screenshots/01.png?raw=true)
+![](/screenshots/02.png?raw=true)
+![](/screenshots/03.png?raw=true)
+![](/screenshots/04.png?raw=true)
+![](/screenshots/05.png?raw=true)
